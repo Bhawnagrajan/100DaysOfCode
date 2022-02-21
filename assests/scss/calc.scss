@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    padding: 14px;
+        width: 20%;
+        margin: 0 auto;
+        border-radius: 17px;
+        text-align: center;
+        background-color: #000;
+        position: relative;
+       h2{
+           color: #fff;
+           margin: 30px;
+           border: 2px solid #fff;
+           border-radius: 10px;
+           padding: 2px;
+       }
+    input{
+        border: none;
+        background-color:#91908d;
+        padding: 10px 30px;
+        border-radius: 20px; 
+        margin-bottom: 15px;
+        color: #000;
+    
+    }
+    table{
+       margin: auto;
+       tr{
+           td{
+               button{
+                background-color:#313131;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 20px; 
+                margin: 2px 1px;
+                color: #fff;
+               }
+           }
+       }
+    }
+}
