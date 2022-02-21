@@ -22,8 +22,6 @@ for(item  of button){
         else{
             screenVal += buttonText;
             result.value = screenVal
-            
-
         }
     })
 }
