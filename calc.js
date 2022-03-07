@@ -9,6 +9,8 @@ for(item  of button){
         if(buttonText=='x'){
          buttonText = '*';
          screenVal += buttonText;
+        
+        
          result.value = screenVal
         }
         else if(buttonText=='C'){
@@ -22,6 +24,7 @@ for(item  of button){
         else{
             screenVal += buttonText;
             result.value = screenVal
+            
         }
     })
 }
